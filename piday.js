@@ -39,7 +39,7 @@ for(var i = 0; i < 150; i++){
 
 
 function alpha(i){
-  return .5 / (Math.pow(i, 1/3)+1);
+  return .07 + .43 / (Math.pow(i, 1/3)+1);
 }
 function symmetry(){
   return 21;
